@@ -32,4 +32,4 @@ I utilized HTML and CSS to recreate the Bento Grid Challenge, breaking down the 
 
 ### Link
 
-- Solution URL: [https://fctexi.github.io/BentoGridFrontendMentor/](Bento Grid Outcome Link)
+- Solution URL: [Bento Grid Outcome Link](https://fctexi.github.io/BentoGridFrontendMentor/)
