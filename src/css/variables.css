@@ -1,0 +1,9 @@
+:root {
+    /* COLORS */
+    --colorOne: hsl(254, 88%, 90%);
+    --darkColorOne: hsl(256, 67%, 59%);
+    --colorTwo: hsl(31, 66%, 93%);
+    --darkColorTwo: hsl(39, 100%, 71%);
+    --ligthColor: hsl(0, 0%, 100%);
+    --darkColor: hsl(0, 0%, 7%);
+}

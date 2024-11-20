@@ -1,0 +1,273 @@
+html {
+    font-size: 62.5%;
+    /*1.6rem =16px*/
+}
+
+body {
+    font-family: 'DM sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+}
+
+main {
+    display: grid;
+    grid-template: repeat(3, auto) / repeat(4, auto);
+    grid-gap: 20px;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 20px;
+}
+
+main .italic {
+    font-style: italic;
+}
+
+/* WINDOW SIZES */
+main .windowSizeOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 335px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+main .windowSizeTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 230px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 535px;
+}
+
+main .windowSizeThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 210px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 255px;
+    overflow: hidden;
+}
+
+main .windowSizeFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 460px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    overflow: hidden;
+}
+
+main .windowSizeFive {
+    display: flex;
+    align-items: center;
+    height: 210px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 480px;
+}
+
+/* STYLING */
+
+/* FIRSTWINDOW */
+
+main .firstWindow {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: var(--colorTwo);
+    align-self: flex-start;
+}
+
+main .firstWindow h1, .secondWindow h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 25px;
+}
+
+main .firstWindow h1 {
+    padding-top: 45px;
+}
+
+main .firstWindow h1 span {
+    color: var(--darkColorOne);
+    font-style: italic;
+}
+
+main .firstWindow a {
+    padding-top: 20px;
+}
+
+main .firstWindow a img {
+    width: 150px;
+}
+
+/* SECONDWINDOW */
+
+main .secondWindow {
+    grid-area: 2 / 1 / 4 / 2;
+    background-color: var(--darkColorTwo);
+    align-self: flex-end;
+}
+
+main .secondWindow img {
+    width: 150px;
+    padding-top: 50px;
+}
+
+/* THIRDWINDOW */
+
+main .thirdWindow {
+    grid-area: 1 / 2 / 2 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--darkColorOne);
+}
+
+main .thirdWindow h1 {
+    font-size: 4.6rem;
+    font-weight: 600;
+    width: 350px;
+    text-align: center;
+    line-height: 42px;
+    color: var(--ligthColor);
+}
+
+main .thirdWindow h2 {
+    color: var(--colorTwo);
+    font-weight: 300;
+    padding-top: 8px;
+}
+
+main .thirdWindow h1 .accentColor {
+    color: var(--darkColorTwo);
+}
+
+main .thirdWindow img {
+    width: 150px;
+    padding-top: 15px;
+}
+
+/* FOURTHWINDOW */
+
+main .fourthWindow {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: var(--ligthColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .fourthWindow h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 190px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+
+main .fourthWindow img {
+    width: 285px;
+    align-self: flex-start;
+}
+
+/* FIFTHWINDOW */
+
+main .fifthWindow {
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: var(--darkColorTwo);
+    display: flex;
+    flex-direction: column;
+}
+
+main .fifthWindow h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 25px;
+    width: 210px;
+}
+
+main .fifthWindow img {
+    width: 200px;
+    padding-top: 15px;
+}
+
+/* SIXTHWINDOW */
+
+main .sixthWindow {
+    grid-area: 1 / 4 / 3 / 5;
+    background-color: var(--colorOne);
+}
+
+main .sixthWindow h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 25px;
+    padding-top: 15px;
+}
+
+main .sixthWindow img {
+    width: 250px;
+    align-self: flex-start;
+    padding-block: 15px;
+}
+
+main .sixthWindow p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+/* SEVENTHWINDOW */
+
+main .seventhWindow {
+    grid-area: 3 / 2 / 4 / 3;
+    background-color: var(--ligthColor);
+}
+
+main .seventhWindow h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+main .seventhWindow p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+main .seventhWindow img {
+    width: 170px;
+    padding-top: 25px;
+    align-self: flex-start;
+}
+
+/* EIGHTHWINDOW */
+
+main .eighthWindow {
+    grid-area: 3 / 3 / 4 / 5;
+    background-color: var(--darkColorOne);
+}
+
+main .eighthWindow img {
+    height: 100%;
+}
+
+main .eighthWindow h1 {
+    font-size: 3.4rem;
+    font-weight: 600;
+    line-height: 25px;
+    padding-left: 15px;
+    color: var(--ligthColor);
+}

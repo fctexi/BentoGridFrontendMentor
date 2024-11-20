@@ -1,0 +1,129 @@
+@media (max-width: 320px) {
+    main {
+        display: grid;
+        grid-template: repeat(8, auto) / 1, auto;
+        grid-column-gap: 0px;
+    }
+
+    /* WINDOW SIZES */
+
+    main .windowSizeOne {
+        width: 300px;
+        height: 180px;
+    }
+
+    main .windowSizeTwo, main .windowSizeThree {
+        width: 300px;
+    }
+
+    main .windowSizeFour {
+        height: 400px;
+        width: 300px;
+    }
+
+    main .windowSizeFive {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    main .windowSizeFive {
+        height: 300px;
+        width: 300px;
+    }
+
+    /* RESPONSIVE WINDOWS */
+
+    /* FIRSTWINDOW */
+    main .firstWindow {
+        grid-area: 7 / 1 / 8 / 2;
+    }
+
+    main .firstWindow h1 {
+        font-size: 2.8rem;
+        padding-top: 0px;
+    }
+
+    /* SECONDWINDOW     */
+    main .secondWindow {
+        grid-area: 8 / 1 / 9 / 2;
+        height: 265px;
+    }
+
+    main .secondWindow img {
+        padding-top: 20px;
+        align-self: self-start;
+    }
+    
+    /* THIRDWINDOW */
+    main .thirdWindow {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    main .thirdWindow h1 {
+        font-size: 3.7rem;
+        font-weight: 600;
+        width: 240px;
+    }
+    
+    /* FOURTHWINDOW */
+    main .fourthWindow {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    main .fourthWindow h1{
+        font-size: 2.2rem;
+        width: 260px;
+    }
+    
+    /* FIFTHWINDOW */
+    main .fifthWindow{
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    main .fifthWindow h1 {
+        font-size: 2.2rem;
+        width: 260px;
+    }
+
+    main .fifthWindow img {
+        align-self: self-start;
+    }
+    
+    /* SIXTHWINDOW */
+    main .sixthWindow {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    main .sixthWindow h1 {
+        font-size: 2rem;
+    }
+    
+    main .sixthWindow p {
+        text-align: center;
+    }
+
+    /* SEVENTHWINDOW */
+    main .seventhWindow {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+    
+    /* EIGHTWINDOW */
+    
+    main .eighthWindow {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    main .eighthWindow img {
+        height: 65%;
+        align-self: center;
+    }
+
+    main .eighthWindow h1 {
+        font-size: 3rem;
+        padding-left: 0px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+}
